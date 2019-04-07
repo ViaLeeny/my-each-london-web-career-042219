@@ -5,7 +5,7 @@ counter = 0
 array.collect do | string|
 
 while counter < array.length
-yield (string)
+yield (array[counter])
 counter += 1
 end
 

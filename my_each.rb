@@ -1,5 +1,5 @@
 def my_each (array)
-counter = 1
+counter = 0
 
 
 array.collect do | string|
